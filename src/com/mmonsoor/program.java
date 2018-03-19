@@ -43,10 +43,12 @@ public class program {
 		try {
 		//Si l'execution , on va afficher l'erreur
 			File.createTempFile("C:\\Users\\ACI\\monFichier", ".txt");
+			File.
 			
 		} catch (Exception erreur) {
 			// TODO: handle exception
 			erreur.printStackTrace();
+			//
 		}
 		finally{
 		    System.out.println("action faite systématiquement");
